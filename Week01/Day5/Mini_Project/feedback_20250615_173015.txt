@@ -1,0 +1,17 @@
+URL: URL: https://github.com/JuliannaR555/DI_Bootcamp/blob/master/Week01/Day5/Mini_Project/game.py
+suggestions for improvement:
+- The `rock-paper-scissors.py` file is missing, preventing a complete assessment of the project's correctness.  The provided `game.py` file is well-structured and mostly correct but needs improvements to fully align with the instructions.
+- The `get_game_result` function can be made more concise and readable using a lookup table or a more streamlined conditional structure.
+- Add comprehensive docstrings to all functions in `game.py` to clearly explain their purpose, parameters, and return values. This enhances readability and maintainability.
+- In `rock-paper-scissors.py`, ensure proper handling of user input and error conditions (e.g., invalid menu choices).
+- Implement input validation in `rock-paper-scissors.py` to handle unexpected user input (like non-numeric values or values outside the range of valid menu choices).
+- The instructions mention using a dictionary to store the results.  The `main` function in `rock-paper-scissors.py` (missing) should accumulate game results in this structure before calling `print_results`.
+Correctness: 95%
+-----
+URL: URL: https://github.com/JuliannaR555/DI_Bootcamp/blob/master/Week01/Day5/Mini_Project/rock-paper-scissors.py
+suggestions for improvement:
+- The `get_user_menu_choice()` function should include more robust input validation to handle unexpected input (e.g., non-string inputs).
+- Add error handling (try-except blocks) around potential points of failure, such as file I/O or network operations (though none are present in this code).
+- The `game.py` file (not provided) is crucial for a complete evaluation. The correctness score assumes it functions as described.
+Correctness: 90%
+-----
