@@ -1,0 +1,7 @@
+URL: URL: https://github.com/JuliannaR555/DI_Bootcamp/blob/master/Week01/Day4/ExerciseXP/Week01_Day01_ExerciseXP.ipynb
+suggestions for improvement:
+- In Exercise 1, the `Siamese` class could benefit from more descriptive comments explaining the purpose of the `purr` method.  Adding a docstring to the `purr` method would improve readability.
+- In Exercise 4, adding a `__str__` method to both the `Person` and `Family` classes would make it easier to print objects directly, rather than having to explicitly call methods like `family_presentation`.
+- In Exercise 4, consider adding error handling to ensure that the age is a positive integer. The `check_majority` method could check if a person with that first name actually exists before proceeding.
+Correctness: 100%
+-----

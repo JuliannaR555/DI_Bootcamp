@@ -1,0 +1,8 @@
+URL: URL: https://github.com/JuliannaR555/DI_Bootcamp/blob/master/Week01/Day3/ExerciseXP/Exercises_XP_W1_D3.ipynb
+suggestions for improvement:
+- In `find_oldest_cat`, using a list comprehension could make the code slightly more concise.
+- The comments in Exercise 2 could be improved for clarity and conciseness.  For example, instead of  `# Affiche un message indiquant que le chien aboie`, simply use `# Dog barks`. 
+- In Exercise 4, the `sort_animals` method creates a new dictionary instead of modifying the existing `animal_groups` attribute.  While functional, directly updating `animal_groups` would be more efficient and maintain consistency. Consider using the `setdefault` method for adding to dictionaries to make this more efficient.
+- Add docstrings to all functions to improve readability and explain their purpose and parameters.
+Correctness: 100%
+-----
