@@ -1,7 +1,7 @@
-# Week 8 - Day 5 - Exercise XP
-# 📚 Meta-Analysis of Large Language Model (LLM) Research Papers
+# Week 8 - Day 5 - Mini-Project
+# Meta-Analysis of Large Language Model (LLM) Research Papers
 
-## 📖 Introduction
+## Introduction
 This project is a **meta-analysis of five recent research papers** related to Large Language Models (LLMs).  
 The objective is not only to summarize each paper but also to **compare methodologies, datasets, evaluation metrics, and identify trends, challenges, and future research directions** in the field of LLMs.
 
@@ -9,7 +9,7 @@ The analysis is based on papers published on **ArXiv in 2025**, covering diverse
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 - Critically read and evaluate multiple LLM research papers.
 - Compare methodologies, architectures, and findings across studies.
 - Synthesize insights and trends in current LLM research.
@@ -18,7 +18,7 @@ The analysis is based on papers published on **ArXiv in 2025**, covering diverse
 
 ---
 
-## 📄 Papers Analyzed
+## Papers Analyzed
 
 1. **InfiAlign: A Scalable and Sample-Efficient Framework for Aligning LLMs to Enhance Reasoning Capabilities**  
    [Link to paper](https://arxiv.org/abs/2508.05496)  
@@ -42,7 +42,7 @@ The analysis is based on papers published on **ArXiv in 2025**, covering diverse
 
 ---
 
-## 📊 Comparative Table of Results
+## Comparative Table of Results
 
 | Title | Datasets | Evaluation Metrics |
 |-------|----------|--------------------|
@@ -54,7 +54,7 @@ The analysis is based on papers published on **ArXiv in 2025**, covering diverse
 
 ---
 
-## 🔍 Insights & Reflections
+## Insights & Reflections
 
 **Trends Observed:**
 - Many papers emphasize **multi-metric evaluation** rather than relying on a single performance score.
@@ -75,7 +75,7 @@ The analysis is based on papers published on **ArXiv in 2025**, covering diverse
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 This meta-analysis shows that LLM research is rapidly expanding into new domains, from robotics and 3D modeling to political science and retrieval-based reasoning.  
 Future progress will likely depend on:
 - Better standardization of evaluation metrics.
@@ -86,7 +86,7 @@ The most innovative works focus on **scalability**, **efficiency**, and **cross-
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 meta_analysis_llms/
 │── meta_analysis_llms.ipynb # Jupyter notebook with all analysis steps
 │── papers/ # Extracted data & CSVs
@@ -95,7 +95,7 @@ meta_analysis_llms/
 
 ---
 
-## 🚀 How to Reproduce
+## How to Reproduce
 1. Clone this repository:
    ```bash
    git clone https://github.com/<your-username>/meta_analysis_llms.git
