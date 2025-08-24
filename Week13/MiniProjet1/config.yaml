@@ -1,0 +1,60 @@
+# Application Configuration
+app:
+  name: "Smart Data Scout"
+  version: "1.0.0"
+  debug: false
+
+# MCP Servers Configuration
+mcp_servers:
+  web_search:
+    name: "web-search"
+    command: "npx"
+    args: ["@modelcontextprotocol/server-brave-search"]
+    env:
+      BRAVE_API_KEY: "${BRAVE_API_KEY}"
+    
+  filesystem:
+    name: "filesystem" 
+    command: "npx"
+    args: ["@modelcontextprotocol/server-filesystem", "./data"]
+    
+  analytics:
+    name: "analytics"
+    command: "python"
+    args: ["servers/analytics_server.py"]
+
+# LLM Configuration
+llm:
+  groq:
+    api_key: "${GROQ_API_KEY}"
+    model: "llama-3.1-70b-versatile"
+    base_url: "https://api.groq.com/openai/v1"
+    max_tokens: 4096
+    temperature: 0.1
+    
+  ollama:
+    base_url: "http://localhost:11434"
+    model: "llama3"
+    max_tokens: 4096
+    temperature: 0.1
+
+# Logging Configuration
+logging:
+  level: INFO
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {module} | {message}"
+  file: "logs/app.log"
+  rotation: "10 MB"
+  retention: "7 days"
+
+# Error Handling
+error_handling:
+  max_retries: 3
+  retry_delay: 2.0
+  timeout_seconds: 30
+  
+# UI Configuration
+streamlit:
+  title: "Smart Data Scout"
+  page_icon: "🔍"
+  layout: "wide"
+  sidebar_state: "expanded"
