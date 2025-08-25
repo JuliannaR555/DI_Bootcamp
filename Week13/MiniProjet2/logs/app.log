@@ -1,0 +1,4 @@
+2025-08-24 21:37:24,069 | ERROR | __main__ | Initialization error: 'charmap' codec can't decode byte 0x8d in position 1246: character maps to <undefined>
+2025-08-25 15:53:56,561 | INFO | numexpr.utils | Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-08-25 15:53:56,561 | INFO | numexpr.utils | NumExpr defaulting to 16 threads.
+2025-08-25 15:53:57,775 | ERROR | __main__ | Initialization error: 'Config' object has no attribute 'data_dir'
