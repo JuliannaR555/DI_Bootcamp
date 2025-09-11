@@ -1,0 +1,5 @@
+streamlit>=1.28.0
+langchain>=0.0.350
+langchain-community>=0.0.350
+llama-cpp-python>=0.2.11
+huggingface_hub>=0.17.0
